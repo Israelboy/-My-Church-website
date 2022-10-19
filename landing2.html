@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-png">
+    <title>Landing Page 2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: lavender;
+            height: 100%;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            background-color: gainsboro;
+        }
+
+        .logo {
+            position: relative;
+            left: 350%;
+        }
+
+        ul {
+            display: flex;
+            position: relative;
+            left: 60%;
+        }
+
+        li {
+            list-style-type: none;
+            margin-left: 50px;
+        }
+
+        li:hover {
+            color: blue;
+            font-weight: bolder;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .head_background {
+            background-image: url('/images/1.jpg');
+            height: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            filter: blur(3px);
+            -webkit-filter: blur(3px);
+        }
+
+        .welcome {
+            text-align: center;
+            background-color: whitesmoke;
+            font-family: cursive;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header_text {
+            color: white;
+            position: absolute;
+            left: 20%;
+            top: 25%;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .images {
+            width: 50%;
+            height: 200px;
+            border-radius: 10px;
+            position: relative;
+            left: 200px;
+        }
+
+        .content_div {
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            background-color: grey;
+            padding: 10px;
+            border-color: rgb(63, 202, 241);
+            border-radius: 10px;
+            color: white;
+            margin-top: 50px;
+        }
+
+        button:hover {
+            border-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="/images/logo.png" class="logo" width="100px">
+            </div>
+            <div>
+                <ul>
+                    <a href="community.html">
+                        <li>Join Our Community</li>
+                    </a>
+                    <a href="#">
+                        <li>Donate</li>
+                    </a>
+                    <a href="#">
+                        <li>About us</li>
+                    </a>
+                    <a href="departments.html">
+                        <li>Departments</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <div class="head_background">
+                <img src="/images/1.jpg" width="50%">
+            </div>
+            <div class="header_text">
+                <div>
+                    <h1 style="font-size: 50px;">Welcome To The Family of Christ</h1>
+                </div>
+                <div>
+                    <h2 style="font-size: 30px;">Join The Heavenly Citizens</h2>
+                </div>
+                <div>
+                    <h3>Welcome to Eternal Joy</h3>
+                </div>
+                <div><a href="#"><button>New Member</button></a></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="welcome">
+            <h2>Welcome to <br> SAINT MICHAEL APOSTOLIC SHEPHERD CHURCH</h2>
+        </div>
+        <div class="content_div">
+            <img src="/images/resize1.jpg" class="images">
+            <p>EVENTS</p>
+        </div>
+        <div class="content_div">
+            <img src="/images/resize2.jpg" class="images">
+            <p>DONATE</p>
+        </div>
+        <div class="content_div">
+            <img src="/images/resize3.jpg" class="images">
+            <a href="departments.html">
+                <p>DEPARTMENTS</p>
+            </a>
+        </div>
+        <div class="content_div">
+            <img src="/images/resize4.jpg" class="images">
+            <p>PAST SERMONS</p>
+        </div>
+        <div class="content_div">
+            <img src="/images/resize1.jpg" class="images">
+            <p>MARRIAGE COUNSELLING</p>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
